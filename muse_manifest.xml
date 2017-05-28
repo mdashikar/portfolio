@@ -1,0 +1,130 @@
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="stephens.ms" resolutions="1x" timestamp="1481117811855">
+  <folder name="css">
+    <file name="site_global.css" crc="4171660582"/>
+    <file name="master_top-menu-blog.css" crc="4142667641" ref="single-blog:blog-page"/>
+    <file name="master_header-footer.css" crc="4204570494" ref="static-image:single-blog:video-version:slider-image:blog-page"/>
+    <file name="static-image.css" crc="4265025133" ref="static-image"/>
+    <file name="iefonts_static-image.css" crc="6886245" ref="static-image"/>
+    <file name="index.css" crc="4025863780" ref="index"/>
+    <file name="iefonts_index.css" crc="295133809" ref="index"/>
+    <file name="single-blog.css" crc="233059861" ref="single-blog"/>
+    <file name="iefonts_single-blog.css" crc="4165198992" ref="single-blog"/>
+    <file name="video-version.css" crc="144210904" ref="video-version"/>
+    <file name="iefonts_video-version.css" crc="3783100896" ref="video-version"/>
+    <file name="slider-image.css" crc="3803690822" ref="slider-image"/>
+    <file name="iefonts_slider-image.css" crc="3852315504" ref="slider-image"/>
+    <file name="blog-page.css" crc="4037553804" ref="blog-page"/>
+    <file name="iefonts_blog-page.css" crc="354571697" ref="blog-page"/>
+  </folder>
+  <folder name="fonts">
+    <file name="fontawesome-webfont.woff" crc="46680941"/>
+    <file name="fontawesome-webfont.eot" crc="120927976"/>
+    <file name="fontawesome-webfont.svg" crc="486128287"/>
+  </folder>
+  <folder name="assets">
+    <file name="user-style.css" crc="3840062179" seo="true" mt="1481043932000"/>
+    <file name="typed.js" crc="4195375420" seo="true" mt="1479233974000"/>
+    <file name="wow.min.js" crc="52723099" seo="true" mt="1433946598000"/>
+    <file name="animate.min.css" crc="3929083352" seo="true" mt="1415871258000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="tablet>index:tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:index:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="museutils.js" crc="163421577" ref="tablet>index:tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:index:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="whatinput.js" crc="86476730" ref="tablet>index:tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:index:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="museconfig.js" crc="168988563" ref="tablet>index:tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:index:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="jquery.watch.js" crc="104486786" ref="tablet>index:tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:index:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="require.js" crc="244322403" ref="tablet>index:tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:index:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="jquery.musemenu.js" crc="146495465" ref="tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="webpro.js" crc="3848665353" ref="tablet>static-image:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="tablet>static-image:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="tablet>static-image:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="touchswipe.js" crc="404375771" ref="tablet>static-image:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="form_check.php" crc="158155501" ref="tablet>static-image"/>
+    <file name="form_throttle.php" crc="3992970984" ref="tablet>static-image"/>
+    <file name="form_process.php" crc="4078697226" ref="tablet>static-image"/>
+    <file name="form-u10594.php" crc="400187659" ref="tablet>static-image"/>
+    <file name="jquery.scrolleffects.js" crc="4065090679" ref="tablet>static-image:tablet>slider-image:tablet>video-version:static-image:slider-image:video-version"/>
+    <file name="html5shiv.js" crc="4241844378" ref="tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:index:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="form-u11475.php" crc="374546822" ref="tablet>slider-image"/>
+    <file name="form-u12218.php" crc="198648807" ref="tablet>video-version"/>
+    <file name="form-u2766.php" crc="125352303" ref="static-image"/>
+    <file name="form-u8453.php" crc="245940674" ref="slider-image"/>
+    <file name="form-u9197.php" crc="108322244" ref="video-version"/>
+  </folder>
+  <folder name="images">
+    <file name="1.png" crc="467271079" ref="tablet>index:index"/>
+    <file name="2.jpg" crc="3879415619" ref="tablet>index:index"/>
+    <file name="3.jpg" crc="419381271" ref="tablet>index:index"/>
+    <file name="home.jpg" crc="60008439" seo="true" ref="tablet>static-image:tablet>slider-image:static-image:slider-image"/>
+    <file name="blank.gif" crc="4208392903" ref="tablet>static-image:tablet>blog-page:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="logo.png" crc="440836356" seo="true" ref="tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="about.jpg" crc="448030398" seo="true" ref="tablet>static-image:tablet>slider-image:tablet>video-version:static-image:slider-image:video-version"/>
+    <file name="pc.png" crc="52868389" seo="true" ref="tablet>static-image:tablet>slider-image:tablet>video-version:static-image:slider-image:video-version"/>
+    <file name="camera.jpg" crc="317134358" seo="true" ref="tablet>static-image:tablet>slider-image:tablet>video-version:static-image:slider-image:video-version"/>
+    <file name="instrument.jpg" crc="4147009030" seo="true" ref="tablet>static-image:tablet>slider-image:tablet>video-version:static-image:slider-image:video-version"/>
+    <file name="setings.jpg" crc="4235555202" seo="true" ref="tablet>static-image:tablet>slider-image:tablet>video-version:static-image:slider-image:video-version"/>
+    <file name="work-1-u10464-fr.jpg" crc="4112090623" ref="tablet>static-image:tablet>slider-image:tablet>video-version"/>
+    <file name="work-2-u10463-fr.jpg" crc="4112090623" ref="tablet>static-image:tablet>slider-image:tablet>video-version"/>
+    <file name="work-3-u10462-fr.jpg" crc="4112090623" ref="tablet>static-image:tablet>slider-image:tablet>video-version"/>
+    <file name="work-4-u10467-fr.jpg" crc="4112090623" ref="tablet>static-image:tablet>slider-image:tablet>video-version"/>
+    <file name="work-5-u10466-fr.jpg" crc="4112090623" ref="tablet>static-image:tablet>slider-image:tablet>video-version"/>
+    <file name="work-6-u10465-fr.jpg" crc="4112090623" ref="tablet>static-image:tablet>slider-image:tablet>video-version"/>
+    <file name="work-1.jpg" crc="4188341303" seo="true" ref="tablet>static-image:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="work-2.jpg" crc="399786079" seo="true" ref="tablet>static-image:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="work-3.jpg" crc="249842706" seo="true" ref="tablet>static-image:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="work-4.jpg" crc="4190789230" seo="true" ref="tablet>static-image:tablet>slider-image:tablet>video-version:static-image:slider-image:video-version"/>
+    <file name="work-5.jpg" crc="433156252" seo="true" ref="tablet>static-image:tablet>slider-image:tablet>video-version:static-image:slider-image:video-version"/>
+    <file name="work-6.jpg" crc="4181582912" seo="true" ref="tablet>static-image:tablet>slider-image:tablet>video-version:static-image:slider-image:video-version"/>
+    <file name="arrow-prev.png" crc="97119129" ref="tablet>static-image:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="arrow-next.png" crc="206400633" ref="tablet>static-image:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:slider-image:video-version"/>
+    <file name="blog-1.jpg" crc="4076580089" ref="tablet>static-image:tablet>blog-page:tablet>single-blog:tablet>slider-image:tablet>video-version:static-image:single-blog:blog-page:slider-image:video-version"/>
+    <file name="blog-2.jpg" crc="4076580089" ref="tablet>static-image:tablet>blog-page:tablet>slider-image:tablet>video-version:static-image:blog-page:slider-image:video-version"/>
+    <file name="blog-3.jpg" crc="4076580089" ref="tablet>static-image:tablet>blog-page:tablet>slider-image:tablet>video-version:static-image:blog-page:slider-image:video-version"/>
+    <file name="blog-4.jpg" crc="4076580089" ref="tablet>blog-page:blog-page"/>
+    <file name="blog-5.jpg" crc="4076580089" ref="tablet>blog-page:blog-page"/>
+    <file name="blog-6.jpg" crc="4076580089" ref="tablet>blog-page:blog-page"/>
+    <file name="work-1-u12853-fr.jpg" crc="4070605044" ref="tablet>single-blog:single-blog"/>
+    <file name="work-2-u12852-fr.jpg" crc="4070605044" ref="tablet>single-blog:single-blog"/>
+    <file name="work-3-u12854-fr.jpg" crc="4070605044" ref="tablet>single-blog:single-blog"/>
+    <file name="slider-1.jpg" crc="321501892" seo="true" ref="tablet>slider-image:slider-image"/>
+    <file name="slider-2.jpg" crc="37885777" seo="true" ref="tablet>slider-image:slider-image"/>
+    <file name="loading.gif" crc="3815509949" ref="tablet>slider-image:slider-image"/>
+    <file name="work-1-u1383-fr.jpg" crc="4096655099" ref="static-image:slider-image:video-version"/>
+    <file name="work-2-u1386-fr.jpg" crc="4096655099" ref="static-image:slider-image:video-version"/>
+    <file name="work-3-u1385-fr.jpg" crc="4096655099" ref="static-image:slider-image:video-version"/>
+    <file name="work-4-u1384-fr.jpg" crc="4096655099" ref="static-image:slider-image:video-version"/>
+    <file name="work-5-u1382-fr.jpg" crc="4096655099" ref="static-image:slider-image:video-version"/>
+    <file name="work-6-u1387-fr.jpg" crc="4096655099" ref="static-image:slider-image:video-version"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="master_header-footer.css" crc="3798012911" ref="tablet>slider-image:tablet>blog-page:tablet>static-image:tablet>single-blog:tablet>video-version"/>
+      <file name="master_top-menu-blog.css" crc="316913911" ref="tablet>blog-page:tablet>single-blog"/>
+      <file name="slider-image.css" crc="164463756" ref="tablet>slider-image"/>
+      <file name="iefonts_slider-image.css" crc="48424803" ref="tablet>slider-image"/>
+      <file name="blog-page.css" crc="3807364526" ref="tablet>blog-page"/>
+      <file name="iefonts_blog-page.css" crc="3929254098" ref="tablet>blog-page"/>
+      <file name="static-image.css" crc="3771297210" ref="tablet>static-image"/>
+      <file name="iefonts_static-image.css" crc="278845452" ref="tablet>static-image"/>
+      <file name="single-blog.css" crc="252384398" ref="tablet>single-blog"/>
+      <file name="iefonts_single-blog.css" crc="4285659221" ref="tablet>single-blog"/>
+      <file name="video-version.css" crc="23416200" ref="tablet>video-version"/>
+      <file name="iefonts_video-version.css" crc="106797308" ref="tablet>video-version"/>
+      <file name="index.css" crc="4019421824" ref="tablet>index"/>
+      <file name="iefonts_index.css" crc="4015875384" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="4095251928" seo="true" mt="1481049162193" redirect="true"/>
+    <file name="static-image.html" crc="4030239406" seo="true" mt="1481117753318" redirect="true"/>
+    <file name="blog-page.html" crc="190720067" seo="true" mt="1481117755889" redirect="true"/>
+    <file name="single-blog.html" crc="4173091916" seo="true" mt="1481117752914" redirect="true"/>
+    <file name="slider-image.html" crc="3771927540" seo="true" mt="1481117755195" redirect="true"/>
+    <file name="video-version.html" crc="3855989449" seo="true" mt="1481117753316" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="481573125" seo="true" mt="1481034047905" redirect="true"/>
+  <file name="static-image.html" crc="215903805" seo="true" mt="1481117774510" redirect="true"/>
+  <file name="single-blog.html" crc="531078928" seo="true" mt="1481117752922" redirect="true"/>
+  <file name="blog-page.html" crc="228746923" seo="true" mt="1481117755891" redirect="true"/>
+  <file name="slider-image.html" crc="4117022231" seo="true" mt="1481117755292" redirect="true"/>
+  <file name="video-version.html" crc="3957305446" seo="true" mt="1481117753320" redirect="true"/>
+</manifest>

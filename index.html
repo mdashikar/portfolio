@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2017.0.0.363"/>
+  
+  <script type="text/javascript">
+   // Redirect to phone/tablet as necessary
+(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
+0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","tablet/slider-image.html","");
+
+// Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "slider-image.css"], "outOfDate":[]};
+</script>
+  
+  <link media="only screen and (max-width: 960px)" rel="alternate" href="http://stephens.ms/tablet/slider-image.html"/>
+  <title>Slider Image</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4171660582"/>
+  <link rel="stylesheet" type="text/css" href="css/master_header-footer.css?crc=4204570494"/>
+  <link rel="stylesheet" type="text/css" href="css/slider-image.css?crc=3803690822" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_slider-image.css?crc=3852315504"/>
+  <![endif]-->
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/montserrat:n4:all;open-sans:n7,n4,n3:all.js" type="text/javascript">\x3C/script>');
+</script>
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+  <![endif]-->
+    <!--custom head HTML-->
+  <!-- User Style -->
+<link rel="stylesheet" href="assets/user-style.css">
+  <!--HTML Widget code-->
+  
+
+        
+            <link rel="stylesheet" type="text/css" href="assets/animate.min.css">
+            <link rel="stylesheet" type="text/css" href="../assets/animate.min.css">
+            <script type="text/javascript" src="assets/wow.min.js"></script>
+            <script type="text/javascript" src="../assets/wow.min.js"></script>
+        
+  <!--/*
+
+*/
+-->
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pslideshowu8546"><!-- group -->
+     <div class="SlideShowWidget clearfix HeroFillFrame grpelem" id="slideshowu8546"><!-- none box -->
+      <div class="popup_anchor" id="u8562popup">
+       <div class="SlideShowContentPanel clearfix" id="u8562"><!-- stack box -->
+        <div class="SSSlide clip_frame grpelem" id="u8567"><!-- image -->
+         <img class="ImageInclude" id="u8567_img" data-src="images/home.jpg?crc=60008439" src="images/blank.gif?crc=4208392903" alt="" data-width="1956" data-height="1100"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" id="u8563"><!-- image -->
+         <img class="ImageInclude" id="u8563_img" data-src="images/slider-1.jpg?crc=321501892" src="images/blank.gif?crc=4208392903" alt="" data-width="1650" data-height="1100"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" id="u8565"><!-- image -->
+         <img class="ImageInclude" id="u8565_img" data-src="images/slider-2.jpg?crc=37885777" src="images/blank.gif?crc=4208392903" alt="" data-width="2017" data-height="1100"/>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width grpelem" id="u8572-bw">
+      <div class="rgba-background" id="u8572"><!-- column -->
+       <div class="clearfix" id="u8572_align_to_page">
+        <a class="anchor_item colelem" id="top"></a>
+        <div class="size_fixed colelem" id="u8235"><!-- custom html -->
+         
+            <h1>I'm <span class="element">Md Ashiqur Rahman Aashik</span></h1>
+        
+        </div>
+        <div class="clearfix colelem" id="pu8440-4"><!-- group -->
+         <a class="nonblock nontext transition clearfix grpelem" id="u8440-4" href="http://facebook.com"><!-- content --><p></p></a>
+         <a class="nonblock nontext transition clearfix grpelem" id="u8436-4" href="http://facebook.com"><!-- content --><p></p></a>
+         <a class="nonblock nontext transition clearfix grpelem" id="u8451-4" href="http://facebook.com"><!-- content --><p></p></a>
+         <a class="nonblock nontext transition clearfix grpelem" id="u8473-4" href="http://facebook.com"><!-- content --><p></p></a>
+         <a class="nonblock nontext transition clearfix grpelem" id="u8438-4" href="http://facebook.com"><!-- content --><p></p></a>
+         <a class="nonblock nontext transition clearfix grpelem" id="u8239-4" href="http://facebook.com"><!-- content --><p></p></a>
+        </div>
+        <a class="nonblock nontext anim_swing clearfix colelem" id="u8439-4" href="slider-image.html#about"><!-- content --><p class="bounce"></p></a>
+        <a class="anchor_item colelem" id="about"></a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu8514"><!-- group -->
+     <div class="browser_width" id="u8514-bw">
+      <div class="shadow ose_pre_init" id="u8514"><!-- simple frame --></div>
+     </div>
+     <div class="clip_frame ose_pre_init" id="u8476"><!-- image -->
+      <img class="block" id="u8476_img" src="#" alt="" width="104" height="25"/>
+     </div>
+     <nav class="MenuBar clearfix ose_pre_init" id="menuu8478"><!-- horizontal box -->
+      <div class="MenuItemContainer clearfix grpelem" id="u8493"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u8496" href="slider-image.html#top"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u8498-4"><!-- content --><p>Home</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u8486"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u8487" href="slider-image.html#about"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u8489-4"><!-- content --><p>About</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u8507"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u8510" href="slider-image.html#portfolio"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u8511-4"><!-- content --><p>Portfolio</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u8500"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u8503" href="slider-image.html#blog"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u8506-4"><!-- content --><p>Blog</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u8479"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix colelem" id="u8482" href="slider-image.html#contact"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u8484-4"><!-- content --><p>Contact</p></div></a>
+      </div>
+     </nav>
+    </div>
+    <div class="size_fixed colelem" id="u8448"><!-- custom html -->
+     
+		
+    </div>
+    <div class="clearfix colelem" id="pu8470"><!-- group -->
+     <div class="image-author clip_frame grpelem" id="u8470"><!-- image -->
+      <img class="block" id="u8470_img" src="images/about.jpg?crc=448030398" alt="" width="569" height="418"/>
+     </div>
+     <div class="clearfix grpelem" id="pu8406"><!-- column -->
+      <div class="size_fixed colelem" id="u8406"><!-- custom html -->
+       
+		
+      </div>
+      <div class="text-animation-1 clearfix colelem" id="u8403-4"><!-- content -->
+       <h2>I am Dynamic and Creative</h2>
+      </div>
+      <div class="text-animation-1 clearfix colelem" id="u8399-7"><!-- content -->
+       <p>I'm a young, passionate developer with a true passion for writing code. I love creating web based applications from the ground up utilizing modern technologies.</p>
+       <p>&nbsp;</p>
+       <p>I am currently working full time as a Front-end developer at TeamFly. Day-to-day I build new websites and develop the company's signature web system.</p>
+      </div>
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u8429-bw">
+     <div id="u8429"><!-- group -->
+      <div class="clearfix" id="u8429_align_to_page">
+       <div class="clearfix grpelem" id="pu8437"><!-- column -->
+        <div class="size_fixed colelem" id="u8437"><!-- custom html -->
+         
+		
+        </div>
+        <div class="Button block-animation-1 clearfix colelem" id="buttonu8407"><!-- container box -->
+         <div class="clip_frame colelem" id="u8409"><!-- image -->
+          <img class="block" id="u8409_img" src="images/pc.png?crc=52868389" alt="" width="36" height="32"/>
+         </div>
+         <div class="clearfix colelem" id="u8408-4"><!-- content -->
+          <h3>GRAPHIC DESIGNER</h3>
+         </div>
+         <div class="clearfix colelem" id="u8411-4"><!-- content -->
+          <p>extensive perceived may any sincerity extremity.</p>
+         </div>
+        </div>
+        <a class="anchor_item colelem" id="portfolio"></a>
+       </div>
+       <div class="clearfix grpelem" id="pu8231"><!-- column -->
+        <div class="size_fixed colelem" id="u8231"><!-- custom html -->
+         
+		
+        </div>
+        <div class="Button block-animation-2 clearfix colelem" id="buttonu8441"><!-- container box -->
+         <div class="clip_frame colelem" id="u8443"><!-- image -->
+          <img class="block" id="u8443_img" src="images/camera.jpg?crc=317134358" alt="" width="36" height="28"/>
+         </div>
+         <div class="clearfix colelem" id="u8442-4"><!-- content -->
+          <h3>PHOTOGRAPHY</h3>
+         </div>
+         <div class="clearfix colelem" id="u8445-4"><!-- content -->
+          <p>extensive perceived may any sincerity extremity.</p>
+         </div>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="pu8402"><!-- column -->
+        <div class="size_fixed colelem" id="u8402"><!-- custom html -->
+         
+		
+        </div>
+        <div class="Button block-animation-3 clearfix colelem" id="buttonu8240"><!-- container box -->
+         <div class="clip_frame colelem" id="u8242"><!-- image -->
+          <img class="block" id="u8242_img" src="images/instrument.jpg?crc=4147009030" alt="" width="32" height="32"/>
+         </div>
+         <div class="clearfix colelem" id="u8241-4"><!-- content -->
+          <h3>DEVELOPMENT</h3>
+         </div>
+         <div class="clearfix colelem" id="u8244-4"><!-- content -->
+          <p>extensive perceived may any sincerity extremity.</p>
+         </div>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="pu8433"><!-- column -->
+        <div class="size_fixed colelem" id="u8433"><!-- custom html -->
+         
+		
+        </div>
+        <div class="Button block-animation-4 clearfix colelem" id="buttonu8424"><!-- container box -->
+         <div class="clip_frame clearfix colelem" id="u8427"><!-- image -->
+          <img class="position_content" id="u8427_img" src="images/setings.jpg?crc=4235555202" alt="" width="36" height="34"/>
+         </div>
+         <div class="clearfix colelem" id="u8425-4"><!-- content -->
+          <h3>CUSTOMIZATION</h3>
+         </div>
+         <div class="clearfix colelem" id="u8426-4"><!-- content -->
+          <p>extensive perceived may any sincerity extremity.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="size_fixed colelem" id="u8237"><!-- custom html -->
+     
+		
+    </div>
+    <div class="title-portfolio clearfix colelem" id="u8404-4"><!-- content -->
+     <h2>PORTFOLIO</h2>
+    </div>
+    <div class="PamphletWidget clearfix colelem" id="pamphletu8246"><!-- none box -->
+     <div class="ThumbGroup clearfix grpelem" id="u8247"><!-- none box -->
+      <div class="popup_anchor" id="u8248popup">
+       <div class="Thumb popup_element clearfix" id="u8248"><!-- group -->
+        <div class="transition clearfix grpelem" id="u8249-4"><!-- content -->
+         <p>All</p>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u8250popup">
+       <div class="Thumb popup_element clearfix" id="u8250"><!-- group -->
+        <div class="transition clearfix grpelem" id="u8251-4"><!-- content -->
+         <p>Web Design</p>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u8252popup">
+       <div class="Thumb popup_element clearfix" id="u8252"><!-- group -->
+        <div class="transition clearfix grpelem" id="u8253-4"><!-- content -->
+         <p>Applications</p>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u8254popup">
+       <div class="Thumb popup_element clearfix" id="u8254"><!-- group -->
+        <div class="transition clearfix grpelem" id="u8255-4"><!-- content -->
+         <p>Development</p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u8258popup">
+      <div class="ContainerGroup clearfix" id="u8258"><!-- stack box -->
+       <div class="Container clearfix grpelem" id="u8291"><!-- group -->
+        <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu8292"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem" id="u8316"><!-- none box -->
+          <div class="popup_anchor" id="u8321popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8321"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8320popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8320"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8319popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8319"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8317popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8317"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8322popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8322"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8318popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8318"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u8296popup">
+          <div class="ContainerGroup rgba-background clearfix" id="u8296"><!-- stack box -->
+           <div class="Container clearfix grpelem" id="u8312"><!-- group -->
+            <div class="clip_frame grpelem" id="u8313"><!-- image -->
+             <img class="block" id="u8313_img" src="images/work-1.jpg?crc=4188341303" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8306"><!-- group -->
+            <div class="clip_frame grpelem" id="u8307"><!-- image -->
+             <img class="block" id="u8307_img" src="images/work-2.jpg?crc=399786079" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8297"><!-- group -->
+            <div class="clip_frame grpelem" id="u8298"><!-- image -->
+             <img class="block" id="u8298_img" src="images/work-3.jpg?crc=249842706" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8309"><!-- group -->
+            <div class="clip_frame grpelem" id="u8310"><!-- image -->
+             <img class="block" id="u8310_img" src="images/work-4.jpg?crc=4190789230" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8300"><!-- group -->
+            <div class="clip_frame grpelem" id="u8301"><!-- image -->
+             <img class="block" id="u8301_img" src="images/work-5.jpg?crc=433156252" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8303"><!-- group -->
+            <div class="clip_frame grpelem" id="u8304"><!-- image -->
+             <img class="block" id="u8304_img" src="images/work-6.jpg?crc=4181582912" alt="" width="700" height="700"/>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u8293popup">
+          <div class="PamphletPrevButton PamphletLightboxPart popup_element" id="u8293"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor" id="u8315popup">
+          <div class="PamphletNextButton PamphletLightboxPart popup_element" id="u8315"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor" id="u8294popup">
+          <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u8294"><!-- group -->
+           <div class="clearfix grpelem" id="u8295-4"><!-- content -->
+            <p></p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u8323"><!-- group -->
+        <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu8324"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem" id="u8347"><!-- none box -->
+          <div class="popup_anchor" id="u8350popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8350"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8351popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8351"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8349popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8349"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8352popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8352"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8348popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8348"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8353popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8353"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u8326popup">
+          <div class="ContainerGroup rgba-background clearfix" id="u8326"><!-- stack box -->
+           <div class="Container clearfix grpelem" id="u8330"><!-- group -->
+            <div class="clip_frame grpelem" id="u8331"><!-- image -->
+             <img class="block" id="u8331_img" src="images/work-6.jpg?crc=4181582912" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8339"><!-- group -->
+            <div class="clip_frame grpelem" id="u8340"><!-- image -->
+             <img class="block" id="u8340_img" src="images/work-5.jpg?crc=433156252" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8342"><!-- group -->
+            <div class="clip_frame grpelem" id="u8343"><!-- image -->
+             <img class="block" id="u8343_img" src="images/work-4.jpg?crc=4190789230" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8333"><!-- group -->
+            <div class="clip_frame grpelem" id="u8334"><!-- image -->
+             <img class="block" id="u8334_img" src="images/work-3.jpg?crc=249842706" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8327"><!-- group -->
+            <div class="clip_frame grpelem" id="u8328"><!-- image -->
+             <img class="block" id="u8328_img" src="images/work-2.jpg?crc=399786079" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8336"><!-- group -->
+            <div class="clip_frame grpelem" id="u8337"><!-- image -->
+             <img class="block" id="u8337_img" src="images/work-1.jpg?crc=4188341303" alt="" width="700" height="700"/>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u8325popup">
+          <div class="PamphletPrevButton PamphletLightboxPart popup_element" id="u8325"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor" id="u8354popup">
+          <div class="PamphletNextButton PamphletLightboxPart popup_element" id="u8354"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor" id="u8345popup">
+          <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u8345"><!-- group -->
+           <div class="clearfix grpelem" id="u8346-4"><!-- content -->
+            <p></p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u8259"><!-- group -->
+        <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu8260"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem" id="u8261"><!-- none box -->
+          <div class="popup_anchor" id="u8267popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8267"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8266popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8266"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8263popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8263"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8264popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8264"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8265popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8265"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8262popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8262"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u8268popup">
+          <div class="ContainerGroup rgba-background clearfix" id="u8268"><!-- stack box -->
+           <div class="Container clearfix grpelem" id="u8269"><!-- group -->
+            <div class="clip_frame grpelem" id="u8270"><!-- image -->
+             <img class="block" id="u8270_img" src="images/work-2.jpg?crc=399786079" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8278"><!-- group -->
+            <div class="clip_frame grpelem" id="u8279"><!-- image -->
+             <img class="block" id="u8279_img" src="images/work-4.jpg?crc=4190789230" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8284"><!-- group -->
+            <div class="clip_frame grpelem" id="u8285"><!-- image -->
+             <img class="block" id="u8285_img" src="images/work-6.jpg?crc=4181582912" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8272"><!-- group -->
+            <div class="clip_frame grpelem" id="u8273"><!-- image -->
+             <img class="block" id="u8273_img" src="images/work-1.jpg?crc=4188341303" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8281"><!-- group -->
+            <div class="clip_frame grpelem" id="u8282"><!-- image -->
+             <img class="block" id="u8282_img" src="images/work-3.jpg?crc=249842706" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8275"><!-- group -->
+            <div class="clip_frame grpelem" id="u8276"><!-- image -->
+             <img class="block" id="u8276_img" src="images/work-5.jpg?crc=433156252" alt="" width="700" height="700"/>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u8287popup">
+          <div class="PamphletPrevButton PamphletLightboxPart popup_element" id="u8287"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor" id="u8288popup">
+          <div class="PamphletNextButton PamphletLightboxPart popup_element" id="u8288"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor" id="u8289popup">
+          <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u8289"><!-- group -->
+           <div class="clearfix grpelem" id="u8290-4"><!-- content -->
+            <p></p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" id="u8355"><!-- group -->
+        <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu8356"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem" id="u8380"><!-- none box -->
+          <div class="popup_anchor" id="u8384popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8384"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8386popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8386"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8382popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8382"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8383popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8383"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8385popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8385"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor" id="u8381popup">
+           <div class="Thumb popup_element transition museBGSize shadow" id="u8381"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u8361popup">
+          <div class="ContainerGroup rgba-background clearfix" id="u8361"><!-- stack box -->
+           <div class="Container clearfix grpelem" id="u8377"><!-- group -->
+            <div class="clip_frame grpelem" id="u8378"><!-- image -->
+             <img class="block" id="u8378_img" src="images/work-5.jpg?crc=433156252" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8368"><!-- group -->
+            <div class="clip_frame grpelem" id="u8369"><!-- image -->
+             <img class="block" id="u8369_img" src="images/work-3.jpg?crc=249842706" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8374"><!-- group -->
+            <div class="clip_frame grpelem" id="u8375"><!-- image -->
+             <img class="block" id="u8375_img" src="images/work-1.jpg?crc=4188341303" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8371"><!-- group -->
+            <div class="clip_frame grpelem" id="u8372"><!-- image -->
+             <img class="block" id="u8372_img" src="images/work-6.jpg?crc=4181582912" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8365"><!-- group -->
+            <div class="clip_frame grpelem" id="u8366"><!-- image -->
+             <img class="block" id="u8366_img" src="images/work-4.jpg?crc=4190789230" alt="" width="700" height="700"/>
+            </div>
+           </div>
+           <div class="Container invi clearfix grpelem" id="u8362"><!-- group -->
+            <div class="clip_frame grpelem" id="u8363"><!-- image -->
+             <img class="block" id="u8363_img" src="images/work-2.jpg?crc=399786079" alt="" width="700" height="700"/>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u8360popup">
+          <div class="PamphletPrevButton PamphletLightboxPart popup_element" id="u8360"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor" id="u8359popup">
+          <div class="PamphletNextButton PamphletLightboxPart popup_element" id="u8359"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor" id="u8357popup">
+          <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u8357"><!-- group -->
+           <div class="clearfix grpelem" id="u8358-4"><!-- content -->
+            <p></p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="size_fixed colelem" id="u8430"><!-- custom html -->
+     
+		
+    </div>
+    <a class="anchor_item colelem" id="blog"></a>
+    <div class="browser_width colelem" id="u8236-bw">
+     <div id="u8236"><!-- column -->
+      <div class="clearfix" id="u8236_align_to_page">
+       <div class="size_fixed colelem" id="u8472"><!-- custom html -->
+        
+		
+       </div>
+       <div class="title-blog clearfix colelem" id="u8423-4"><!-- content -->
+        <h2>LATEST BLOGS</h2>
+       </div>
+       <div class="clearfix colelem" id="pu8398-6"><!-- group -->
+        <div class="text-animation-2 clearfix grpelem" id="u8398-6"><!-- content -->
+         <p>Out believe has request not how comfort evident. Up delight cousins we feeling</p>
+         <p>minutes. Genius has looked end piqued spring.</p>
+        </div>
+        <div class="size_fixed grpelem" id="u8431"><!-- custom html -->
+         
+		
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu8435"><!-- group -->
+        <div class="size_fixed grpelem" id="u8435"><!-- custom html -->
+         
+		
+        </div>
+        <div class="size_fixed grpelem" id="u8234"><!-- custom html -->
+         
+		
+        </div>
+        <div class="size_fixed grpelem" id="u8238"><!-- custom html -->
+         
+		
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pbuttonu8412"><!-- group -->
+        <a class="nonblock nontext Button block-news-1 clearfix grpelem" id="buttonu8412" href="single-blog.html"><!-- container box --><div class="transition museBGSize colelem" id="u8414"><!-- simple frame --></div><div class="clearfix colelem" id="u8415-4"><!-- content --><h2>By spite about do of do allow blush</h2></div><div class="clearfix colelem" id="u8413-4"><!-- content --><p>Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat.</p></div><div class="clearfix colelem" id="u8416-4"><!-- content --><p>Larry Stark - 7 September 2016</p></div></a>
+        <a class="nonblock nontext Button block-news-2 clearfix grpelem" id="buttonu8388" href="single-blog.html"><!-- container box --><div class="transition museBGSize colelem" id="u8389"><!-- simple frame --></div><div class="clearfix colelem" id="u8390-4"><!-- content --><h2>Two Before Arrow Not Relied</h2></div><div class="clearfix colelem" id="u8391-4"><!-- content --><p>Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat.</p></div><div class="clearfix colelem" id="u8392-4"><!-- content --><p>Larry Stark - 7 September 2016</p></div></a>
+        <a class="nonblock nontext Button block-news-3 clearfix grpelem" id="buttonu8418" href="single-blog.html"><!-- container box --><div class="transition museBGSize colelem" id="u8422"><!-- simple frame --></div><div class="clearfix colelem" id="u8419-4"><!-- content --><h2>Behind Sooner Dining so Window</h2></div><div class="clearfix colelem" id="u8421-4"><!-- content --><p>Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat.</p></div><div class="clearfix colelem" id="u8420-4"><!-- content --><p>Larry Stark - 7 September 2016</p></div></a>
+       </div>
+       <a class="nonblock nontext Button transition rounded-corners clearfix colelem" id="buttonu8449" href="blog-page.html"><!-- container box --><div class="clearfix grpelem" id="u8450-4"><!-- content --><p>READ MORE</p></div></a>
+       <a class="anchor_item colelem" id="contact"></a>
+      </div>
+     </div>
+    </div>
+    <div class="size_fixed colelem" id="u8397"><!-- custom html -->
+     
+		
+    </div>
+    <div class="contacts-1 clearfix colelem" id="u8447-4"><!-- content -->
+     <h3>GET IN TOUCH</h3>
+    </div>
+    <div class="contacts-1 clearfix colelem" id="u8394-6"><!-- content -->
+     <p>Out believe has request not how comfort evident. Up delight cousins we feeling</p>
+     <p>minutes. Genius has looked end piqued spring.</p>
+    </div>
+    <div class="size_fixed colelem" id="u8417"><!-- custom html -->
+     
+		
+    </div>
+    <div class="clearfix colelem" id="pu8405-4"><!-- group -->
+     <div class="contacts-2 rounded-corners clearfix grpelem" id="u8405-4"><!-- content -->
+      <p></p>
+     </div>
+     <div class="contacts-2 rounded-corners clearfix grpelem" id="u8395-4"><!-- content -->
+      <p></p>
+     </div>
+     <div class="contacts-2 rounded-corners clearfix grpelem" id="u8452-4"><!-- content -->
+      <p></p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu8401-6"><!-- group -->
+     <div class="contacts-2 clearfix grpelem" id="u8401-6"><!-- content -->
+      <p>+880 1750 3588 66</p>
+      <p>+0821 28 70 501</p>
+     </div>
+     <div class="contacts-2 clearfix grpelem" id="u8232-4"><!-- content -->
+      <p>02 Chakgram Dashpara Shahporan, Sylhet 3110</p>
+     </div>
+     <div class="contacts-2 clearfix grpelem" id="u8396-6"><!-- content -->
+      <p>md.ashik.ar@gmail.com</p>
+      <p>contact@mdashikar.com</p>
+     </div>
+    </div>
+    <form class="form-grp clearfix colelem" id="widgetu8453" method="post" enctype="multipart/form-data" action="scripts/form-u8453.php"><!-- none box -->
+     <div class="fld-grp clearfix grpelem" id="widgetu8454" data-required="true"><!-- none box -->
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u8455-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu8454_input" name="custom_U8454" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu8454_prompt" for="widgetu8454_input"><span class="actAsPara">Name</span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem" id="widgetu8459" data-required="true" data-type="email"><!-- none box -->
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u8461-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu8459_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu8459_prompt" for="widgetu8459_input"><span class="actAsPara">Email</span></label></span>
+     </div>
+     <div class="transition clearfix grpelem" id="u8469-4"><!-- content -->
+      <p>Submitting Form...</p>
+     </div>
+     <div class="transition clearfix grpelem" id="u8458-4"><!-- content -->
+      <p>The server encountered an error.</p>
+     </div>
+     <div class="transition clearfix grpelem" id="u8467-4"><!-- content -->
+      <p>Form received.</p>
+     </div>
+     <button class="submit-btn NoWrap transition rounded-corners clearfix grpelem" id="u8468-4" type="submit" value="SEND A&nbsp; MESSaGE" tabindex="4"><!-- content -->
+      <div style="margin-top:-16px;height:16px;">
+       <p>SEND A&nbsp; MESSaGE</p>
+      </div>
+     </button>
+     <div class="fld-grp clearfix grpelem" id="widgetu8463" data-required="false"><!-- none box -->
+      <span class="fld-textarea actAsDiv clearfix grpelem" id="u8466-4"><!-- content --><textarea class="wrapped-input" id="widgetu8463_input" name="custom_U8463" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu8463_prompt" for="widgetu8463_input"><span class="actAsPara">Message</span></label></span>
+     </div>
+    </form>
+    <div class="verticalspacer" data-offset-top="4665" data-content-above-spacer="4664" data-content-below-spacer="408"></div>
+    <div class="browser_width colelem" id="u258-bw">
+     <div id="u258"><!-- column -->
+      <div class="clearfix" id="u258_align_to_page">
+       <div class="size_fixed colelem" id="u903"><!-- custom html -->
+        
+		
+       </div>
+       <div class="clearfix colelem" id="pu261-4"><!-- group -->
+        <a class="nonblock nontext transition clearfix grpelem" id="u261-4" href="http://facebook.com"><!-- content --><p></p></a>
+        <a class="nonblock nontext transition clearfix grpelem" id="u309-4" href="http://facebook.com"><!-- content --><p></p></a>
+        <a class="nonblock nontext transition clearfix grpelem" id="u312-4" href="http://facebook.com"><!-- content --><p></p></a>
+        <a class="nonblock nontext transition clearfix grpelem" id="u315-4" href="http://facebook.com"><!-- content --><p></p></a>
+        <a class="nonblock nontext transition clearfix grpelem" id="u318-4" href="http://facebook.com"><!-- content --><p></p></a>
+        <a class="nonblock nontext transition clearfix grpelem" id="u321-4" href="http://facebook.com"><!-- content --><p></p></a>
+       </div>
+       <div class="clearfix colelem" id="u330-6"><!-- content -->
+        <p>Copyright © 2017 Md Ashiqur Rahman, All rights Reserved.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch","jquery.musemenu","jquery.musepolyfill.bgsize","jquery.scrolleffects"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.initWidget('#slideshowu8546', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu8546 */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#pamphletu8292', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8292 */
+Muse.Utils.initWidget('#pamphletu8324', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8324 */
+Muse.Utils.initWidget('#pamphletu8260', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8260 */
+Muse.Utils.initWidget('#pamphletu8356', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8356 */
+Muse.Utils.initWidget('#pamphletu8246', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:4500,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:4500,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8246 */
+Muse.Utils.initWidget('#widgetu8453', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu8453 */
+$('#u8514').registerOpacityScrollEffect([{"fade":0,"in":[-Infinity,850.05],"opacity":0},{"in":[850.05,850.05],"opacity":0},{"fade":100,"in":[850.05,Infinity],"opacity":100}]);/* scroll effect */
+$('#u8476').registerOpacityScrollEffect([{"fade":0,"in":[-Infinity,850.05],"opacity":0},{"in":[850.05,850.05],"opacity":0},{"fade":100,"in":[850.05,Infinity],"opacity":100}]);/* scroll effect */
+$('#menuu8478').registerOpacityScrollEffect([{"fade":0,"in":[-Infinity,850.05],"opacity":0},{"in":[850.05,850.05],"opacity":0},{"fade":100,"in":[850.05,Infinity],"opacity":100}]);/* scroll effect */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=244322403" type="text/javascript" async data-main="scripts/museconfig.js?crc=168988563" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+            <script type="text/javascript" src="assets/typed.js"></script>
+            <script type="text/javascript">
+                    // HOME TYPED JS
+                $(function () {
+                    $(".element").typed({
+                        strings: ["Md Ashiqur Rahman","Web Developer","App Developer"],
+                        typeSpeed: 10,
+                        loop: true,
+                        backDelay: 2000
+                    });
+                });
+            </script>
+        
+            <script>
+                $('.image-author').addClass('wow fadeInLeft').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.text-animation-1').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.block-animation-1').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.block-animation-2').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.4s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.block-animation-3').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.6s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.block-animation-4').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.8s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.title-portfolio').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('#pamphletu8246').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.title-blog').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.text-animation-2').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.block-news-1').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.block-news-2').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.block-news-3').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.4s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.contacts-1').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                $('.contacts-2').addClass('wow fadeInUp').attr('data-wow-offset', '200').attr('data-wow-duration', '0.8s').attr('data-wow-delay', '0.2s').attr('data-wow-iteration', '1');
+            </script>
+        
+            <script>
+                new WOW().init();
+            </script>
+        
+   </body>
+</html>

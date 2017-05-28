@@ -1,0 +1,4 @@
+[0209/130319.122:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0209/130319.124:ERROR:exception_snapshot_win.cc(87)] thread ID 2360 not found in process
+[0209/130319.124:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0312/235811.981:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: The pipe is being closed. (0xE8)
